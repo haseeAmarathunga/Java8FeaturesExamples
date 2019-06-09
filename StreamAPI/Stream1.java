@@ -1,12 +1,9 @@
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.*;
-
-
 class Stream1
 {
     public static void main(String args[]){
-
         List<Integer> num=Arrays.asList(1,2,8,4,0,6,9);
         System.out.println(num);
 
@@ -31,9 +28,5 @@ class Stream1
 
         // Get Maximun no from list using stream API
         System.out.println("Max : "+num.stream().max(Integer::compare).get());
-
-
-
-
     }
 }
